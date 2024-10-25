@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="ImagesFiles/LEtech_Logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Land Earth Technology</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.min.css" rel="stylesheet" />
+
+
+  <link href="Services.css" rel="stylesheet">
+</head>
+<style>
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    left: 20px;
+    margin-left: 22%;
+  }
+
+  .serv-img-fluid {
+    padding: 0;
+  }
+
+  .image-container {
+    position: relative;
+    text-align: center;
+    margin-top: 4.5rem;
+  }
+
+  .responsive-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .text-overlay {
+    position: absolute;
+    left: 53%;
+    top: 0%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 80%;
+    max-width: 1200px;
+  }
+
+  .uppercase {
+    font-size: 3vw;
+    background: linear-gradient(to right, #e79c9cf0, #8b0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .sub-heading {
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: white;
+    text-shadow: 2px 3px black;
+  }
+
+  .services-container {
+    margin-top: 50px;
+    padding: 0 2%;
+  }
+
+  .content-box {
+    width: 80%;
+    max-width: 1200px;
+    border: 1px solid #efd767;
+  }
+
+  .nav-tabs {
+    font-size: 1.1rem;
+    background-color: #d1ae0e;
+    font-weight: 600;
+  }
+
+  .images-container {
+    margin: 20px 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .image-item {
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .description-box {
+    width: 90%;
+    max-width: 1200px;
+    border: 2px solid #dfc04d;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  .footer-bg-img {
+    background-image: url("ImagesFiles/FooterbgImages.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: helvetica-w01-roman, sans-serif;
+    letter-spacing: 0.1em;
+
+  }
+
+  .description-boxes {
+
+    max-width: 982px;
+    border: 2px solid #dfc04d;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  .letech-Navbar {
+    background-color: #47afdc;
+  }
+
+  .Navbar-logo img {
+    height: 40%;
+    width: 9rem;
+  }
+
+  .navbar-collapse {
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  @media (min-width: 1358px) and (max-width: 1750px) {
+    .ItemsofNavbar {
+      margin-left: 820px;
+    }
+
+  }
+
+  @media (max-width: 1359px) and (min-width: 768px) {
+    .ItemsofNavbar {
+      margin-left: 500px;
+    }
+
+  }
+
+  /* Media Queries for Responsiveness */
+  @media (min-width: 1880px) {
+    .ItemsofNavbar {
+      margin-left: 1300px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .ItemsofNavbar {
+      margin-left: auto;
+    }
+
+    .uppercase {
+      font-size: 5vw;
+    }
+
+    .sub-heading {
+      font-size: 3vw;
+    }
+
+    .image-item img {
+      width: 100px;
+      height: auto;
+    }
+
+    .description-box p {
+      font-size: 1rem;
+    }
+
+    .images-container {
+      margin: auto;
+    }
+  }
+
+  .maincontainer {
+    width: 80%;
+    height: auto;
+    border: 1px solid #efd767
+  }
+
+  @media (max-width: 576px) {
+    .uppercase {
+      font-size: 3vw;
+    }
+
+    .sub-heading {
+      font-size: 2vw;
+    }
+
+    .image-item img {
+      width: 55px;
+      height: auto;
+    }
+
+    .description-box p {
+      font-size: 0.9rem;
+    }
+
+    .smallScreen {
+      font-size: 12px !important;
+      text-align: center;
+    }
+  }
+
+
+
+  @media (max-width: 375px) {
+    .Navbar-logo img {
+      height: 40%;
+      width: 4rem;
+    }
+
+    .image-container {
+      margin-top: 2.2rem;
+    }
+    .navbar-brand {
+      margin-left: 1%;
+    }
+
+    .photogrametry {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .allheading {
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .uppercase {
+      font-size: 5vw;
+    }
+
+    .maincontainer {
+    padding-bottom: 1rem !important;
+}
+
+    .description-boxes {
+
+      max-width: 1200px;
+      border: 2px solid #dfc04d;
+      border-radius: 5px;
+      padding: 5px;
+    }
+
+    .image-item {
+      padding: 0px;
+    }
+
+    .images-container {
+      margin-bottom: 5px;
+    }
+
+    .border {
+      border: 1px solid grey;
+    }
+
+    .maincontainer {
+      width: 90%;
+
+    }
+
+    .navtab {
+      margin-top: 10px !important;
+    }
+  }
+
+
+
+  .navtab {
+    margin-top: 50px;
+  }
+
+  @media (min-width: 376px) and (max-width: 1024px) {
+    .Navbar-logo img {
+      height: 40%;
+      width: 5rem;
+    }
+
+    .image-container {
+      margin-top: 2.5rem;
+    }
+    .navbar-brand {
+      margin-left: 8%;
+    }
+
+  }
+</style>
+
+<body>
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light letech-Navbar p-0">
+    <div class="container-fluid">
+      <a class="navbar-brand Navbar-logo pb-0" href="#">
+        <img src="ImagesFiles/LEtech_Logo.png" alt="Logo" loading="lazy" />
+      </a>
+
+      <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarRightAlignExample"
+        aria-controls="navbarRightAlignExample" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarRightAlignExample">
+
+        <ul class="navbar-nav  mb-2 mb-lg-0">
+          <li class="nav-item me-4">
+            <a class="nav-link  text-white" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link  text-white" href="/about.html">AboutUs</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link active" href="/services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div>
+
+  <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-light letech-Navbar p-0">
+
+    <div class="container-fluid logo-main-div align-item-center justify-content-center">
+      <a class="navbar-brand Navbar-logo pb-0" href="#">
+        <img src="ImagesFiles/LEtech_Logo.png" alt="Logo" loading="lazy" />
+      </a>
+    </div>
+ 
+    <div class="container-fluid">
+    
+      <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarRightAlignExample"
+        aria-controls="navbarRightAlignExample" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+   
+      <div class="collapse navbar-collapse justify-content-center" id="navbarRightAlignExample">
+      
+        <ul class="navbar-nav  mb-2 mb-lg-0">
+          <li class="nav-item me-4">
+            <a class="nav-link  text-white" aria-current="page" href="/Home.html">Home</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link  text-white" href="/AboutUs.html">AboutUs</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link active" href="/Services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-white" href="/Contact.html">Contact</a>
+          </li>
+        </ul>
+      
+      </div>
+     
+    </div>
+   
+  </nav> -->
+
+  <div class="container-fluid serv-img-fluid">
+    <div class="image-container">
+      <img class="responsive-image"
+        src="https://static.wixstatic.com/media/89d060_91bad2cc2830444d8cfb161394632060~mv2.png/v1/fill/w_1650,h_544,al_c,q_90,enc_auto/89d060_91bad2cc2830444d8cfb161394632060~mv2.png"
+        style="width: -webkit-fill-available;" alt="Wild Landscape" />
+      <span class="text-overlay">
+        <h2 class="uppercase">Services</h2>
+        <p class="sub-heading">Empowering Progress with Cutting-Edge Geospatial <br> Solutions Transforming Data into
+          Action for a <br> Smarter, Sustainable Future</p>
+      </span>
+    </div>
+    <div class="d-flex justify-content-center align-items-center navtab ">
+      <div class="pb-5 mb-2 maincontainer">
+        <!-- Tabs navs -->
+        <ul class="nav nav-tabs nav-fill mb-3" id="ex1" role="tablist" style="font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
+   
+    border-top: 0px solid #0057E1;
+    color: #000000;
+    border-bottom: 0px solid #FFFFFF;
+    background-color: #d1ae0e;
+    font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
+  
+   ">
+          <li class="nav-item border" role="presentation"
+            style="font-weight: 600; font-size:20px ; text-shadow: 3px 2px solid rgb(240, 232, 232)">
+            <a data-mdb-tab-init class="nav-link active" id="ex2-tab-1" href="#ex2-tabs-1" role="tab"
+              aria-controls="ex2-tabs-1" aria-selected="true">Remote Sensing</a>
+          </li>
+          <li class="nav-item border" role="presentation">
+            <a style="font-weight:400; text-shadow:4px solid black" data-mdb-tab-init class="nav-link" id="ex2-tab-2"
+              href="#ex2-tabs-2" role="tab" aria-controls="ex2-tabs-2" aria-selected="false">Photogrammetry</a>
+          </li>
+          <li class="nav-item border" role="presentation">
+            <a data-mdb-tab-init class="nav-link" id="ex2-tab-3" href="#ex2-tabs-3" role="tab"
+              aria-controls="ex2-tabs-3" aria-selected="false">Geographic Information Systems (GIS)</a>
+          </li>
+          <li class="nav-item border" role="presentation">
+            <a data-mdb-tab-init class="nav-link" id="ex2-tab-4" href="#ex2-tabs-4" role="tab"
+              aria-controls="ex2-tabs-4" aria-selected="false">Drone Surveys</a>
+          </li>
+          <li class="nav-item border" role="presentation">
+            <a data-mdb-tab-init class="nav-link" id="ex2-tab-5" href="#ex2-tabs-5" role="tab"
+              aria-controls="ex2-tabs-5" aria-selected="false">Ground Surveys</a>
+          </li>
+          <li class="nav-item border" role="presentation">
+            <a data-mdb-tab-init class="nav-link" id="ex2-tab-6" href="#ex2-tabs-6" role="tab"
+              aria-controls="ex2-tabs-6" aria-selected="false">LiDAR (Light Detection and Ranging)</a>
+          </li>
+        </ul>
+        <!-- Tabs navs -->
+
+        <!-- Tabs content -->
+        <div class="tab-content" id="ex2-content">
+          <div class="tab-pane fade show active" id="ex2-tabs-1" role="tabpanel" aria-labelledby="ex2-tab-1">
+            <div>
+              <h1 class="d-flex justify-content-center allheading">REMOTE SENSING</h1>
+              <h6 class="d-flex justify-content-center smallScreen photogrametry">Unlock the Power of Remote Sensing for
+                Smarter,
+                Sustainable Solutions</h6>
+              <div class="d-flex justify-content-center images-container">
+                <div class="col image-item pt-sm-3 pb-sm-5"><img
+                    src="https://static.wixstatic.com/media/89d060_be3566161c174272951710868d015f6f~mv2.png/v1/crop/x_10,y_0,w_280,h_274/fill/w_160,h_152,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/RS_1.png"
+                    alt=""></div>
+                <div class="col image-item pt-sm-3"><img
+                    src="https://static.wixstatic.com/media/89d060_c0eb49a9345c4f6880a8c728f3e83b57~mv2.png/v1/crop/x_6,y_0,w_288,h_281/fill/w_160,h_152,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/RS_2.png"
+                    alt=""></div>
+                <div class="col image-item pt-sm-3"><img
+                    src="https://static.wixstatic.com/media/89d060_036e9391e54f44b092333ca34ab21a1e~mv2.png/v1/crop/x_3,y_0,w_288,h_281/fill/w_160,h_152,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/RS_3.png"
+                    alt=""></div>
+                <div class="col image-item pt-sm-3"><img
+                    src="https://static.wixstatic.com/media/89d060_fd00a94f030c4ae890780c9d828da713~mv2.png/v1/crop/x_6,y_0,w_287,h_280/fill/w_160,h_152,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/RS_4.png"
+                    alt=""></div>
+                <div class="col image-item pt-sm-3"><img
+                    src="https://static.wixstatic.com/media/89d060_3425fae22223467593eb818e5af50ad9~mv2.png/v1/crop/x_2,y_0,w_287,h_280/fill/w_160,h_152,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/RS_5.png"
+                    alt=""></div>
+              </div>
+              <div class="text-center d-flex justify-content-center align-item-center">
+                <div class="pb-4 description-box">
+                  <p>
+                    At Land Earth Technologies, we are experts in photogrammetry, offering precise, reliable solutions
+                    for projects that demand accuracy. Our expertise in aerial triangulation ensures that every
+                    geospatial map is anchored with precision, laying the foundation for reliable data.
+
+                    ​
+
+                    <br>​ <br>​ <br>​
+
+                    We specialize in generating Digital Elevation Models (DEM), Digital Terrain Models (DTM), and
+                    Digital Surface Models (DSM), allowing clients to visualize and analyze complex terrains in 3D. Our
+                    services also include detailed planimetric feature extraction, accurately mapping roads, buildings,
+                    and infrastructure to support urban planning and resource management.
+
+                    ​
+
+                    ​<br> <br>​ <br>​
+
+                    With advanced 3D modeling capabilities, we bring landscapes and structures to life, making
+                    visualization and analysis more efficient for industries like architecture, engineering, and
+                    environmental assessment. At Land Earth Technologies, we combine innovative technology with a
+                    client-focused approach, delivering precise geospatial data that drives success and informed
+                    decision-making.
+
+                    <br>​ <br>​ <br>​
+
+                    Discover the power of photogrammetry with us, where accuracy meets innovation.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="ex2-tabs-2" role="tabpanel" aria-labelledby="ex2-tab-2">
+            <div>
+              <h1 class="d-flex justify-content-center allheading ">PHOTOGRAMMETRY</h1>
+              <h6 class="d-flex justify-content-center photogrametry ">Transforming Spaces with Precise Photogrammetry
+                Solutions</h6>
+              <div class="d-flex justify-content-center ">
+                <div class="d-flex justify-content-center images-container pb-sm-5">
+                  <div class="col image-item px-4 pt-sm-4"><img
+                      src="https://static.wixstatic.com/media/89d060_df98e178595f46c0ac3b1042cb6dcc89~mv2.png/v1/fill/w_155,h_155,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4.png"
+                      alt=""></div>
+                  <div class="col image-item px-4 pt-sm-4"><img
+                      src="https://static.wixstatic.com/media/89d060_8d915c001285408fa4e9a492db3c96a5~mv2.png/v1/crop/x_13,y_0,w_381,h_347/fill/w_155,h_155,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3d_1.png"
+                      alt=""></div>
+                  <div class="col image-item px-4 pt-sm-4"><img
+                      src="https://static.wixstatic.com/media/89d060_7c3690ea8f42433898441bc895bc4335~mv2.png/v1/crop/x_81,y_0,w_231,h_232/fill/w_155,h_155,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/PMF.png"
+                      alt=""></div>
+                  <div class="col image-item px-4 pt-sm-4"><img
+                      src="https://static.wixstatic.com/media/89d060_a839bc877032443b9f3354ef1b6ca4f3~mv2.png/v1/crop/x_62,y_0,w_338,h_338/fill/w_155,h_155,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/dem.png"
+                      alt=""></div>
+                </div>
+              </div>
+              <div class="text-center d-flex justify-content-center align-item-center">
+                <div class="pb-4 description-box">
+                  <p>At Land Earth Technologies, we are experts in photogrammetry, offering precise, reliable solutions
+                    for projects that demand accuracy. Our expertise in aerial triangulation ensures that every
+                    geospatial map is anchored with precision, laying the foundation for reliable data.
+
+                    ​
+
+                    <br>​ <br>​ <br>​
+
+                    We specialize in generating Digital Elevation Models (DEM), Digital Terrain Models (DTM), and
+                    Digital Surface Models (DSM), allowing clients to visualize and analyze complex terrains in 3D. Our
+                    services also include detailed planimetric feature extraction, accurately mapping roads, buildings,
+                    and infrastructure to support urban planning and resource management.
+
+                    ​
+
+                    ​<br> <br>​ <br>​
+
+                    With advanced 3D modeling capabilities, we bring landscapes and structures to life, making
+                    visualization and analysis more efficient for industries like architecture, engineering, and
+                    environmental assessment. At Land Earth Technologies, we combine innovative technology with a
+                    client-focused approach, delivering precise geospatial data that drives success and informed
+                    decision-making.
+
+                    <br>​ <br>​ <br>​
+
+                    Discover the power of photogrammetry with us, where accuracy meets innovation.
+                  </p>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="ex2-tabs-3" role="tabpanel" aria-labelledby="ex2-tab-3">
+            <div>
+              <h1 class="d-flex justify-content-center allheading ">GEOGRAPHIC INFORMATION SYSTEM (GIS)</h1>
+              <h6 class="d-flex justify-content-center photogrametry ">Revolutionizing Decision-Making with Smart GIS
+                and BAMEmap
+                Solutions</h6>
+              <div class="d-flex justify-content-center ">
+                <div class="d-flex align-items-start bg-body-tertiary mb-3 mx-4 mt-5 row ps-0 pe-0">
+                  <div class="col-lg-9 pe-lg-5 col-sm-12 col-md-12 m-0 ps-0 pe-0  ">
+                    <div class="pb-4 description-boxes">
+                      <p class="mt-5 mx-1 text-center p-sm-0 ">At Land Earth Technologies, we are pioneers in remote
+                        sensing, offering
+                        cutting-edge solutions tailored to various industries. Our expert team leverages advanced
+                        technology to capture, analyze, and interpret geospatial data from satellites, drones, and other
+                        platforms, providing clients with precise, actionable insights.
+
+                        <br>​ <br>​ <br>​
+
+                        Our comprehensive services cover the full remote sensing workflow—data acquisition,
+                        preprocessing, image analysis, and GIS integration. Whether it’s monitoring agricultural health,
+                        assessing environmental changes, or supporting urban planning, we deliver reliable results that
+                        empower informed decision-making.
+
+                        ​<br> <br>​ <br>​
+
+                        With a strong commitment to innovation and data security, we ensure high-quality outcomes for
+                        every project. Our diverse portfolio spans forestry management, disaster response, land use
+                        planning, and more. By partnering with clients, we help optimize operations, reduce risks, and
+                        promote sustainability through intelligent data solutions.
+
+                        <br>​ <br>​ <br>​
+
+                        At Land Earth Technologies, we don’t just offer services; we deliver insights that transform
+                        industries and foster responsible environmental stewardship. Discover the potential of remote
+                        sensing with us.
+                      </p>
+
+                    </div>
+
+
+                  </div>
+                  <div class="col-lg-3  ps-lg-5 col-sm-12 col-md-12 ps-0 pe-0 "><img class="img-fluid"
+                      src="https://static.wixstatic.com/media/89d060_f9d444f9a6d848aaaeb4cef1d41e6cd7~mv2.png/v1/fill/w_250,h_467,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/89d060_f9d444f9a6d848aaaeb4cef1d41e6cd7~mv2.png"
+                      style="min-height:  544px;" alt=""></div>
+                </div>
+                <div class="text-center d-flex justify-content-center align-item-center">
+
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="tab-pane fade" id="ex2-tabs-4" role="tabpanel" aria-labelledby="ex2-tab-4">
+            <div>
+
+              <h1 class="d-flex justify-content-center allheading">DRONE SURVEYS</h1>
+              <p class="d-flex justify-content-center photogrametry">Harness the Power of Drone Technology for Accurate
+                Insights and
+                Smarter Decisions</p>
+              <div class="d-flex justify-content-center images-container ">
+                <img class="img-fluid"
+                  src="https://static.wixstatic.com/media/89d060_fe557f1b69df4080b47c477c17634e2c~mv2.png/v1/crop/x_0,y_6,w_680,h_279/fill/w_650,h_269,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/89d060_fe557f1b69df4080b47c477c17634e2c~mv2.png"
+                  alt="">
+              </div>
+              <div class="text-center d-flex justify-content-center align-item-center">
+                <div class="pb-4" style="width: 90%; height:auto; border: 2px solid #dfc04d;  border-radius:5px;">
+                  <p class="mt-5 mx-1 ">Land Earth Technologies is a leader in providing innovative drone survey
+                    solutions, delivering critical aerial insights to industries worldwide. From mining and stockpile
+                    management to infrastructure inspection, we use state-of-the-art drone technology to capture
+                    accurate, high-resolution data that helps optimize operations and improve efficiency.
+
+                    <br>​ <br>​ <br>​
+
+                    In mining, our drones provide precise assessments for resource extraction and stockpile management,
+                    ensuring better control and optimization. For infrastructure inspections, we offer cost-effective,
+                    detailed evaluations of vital assets such as bridges, power lines, and pipelines, enhancing safety
+                    and operational reliability.
+                    ​<br> <br>​ <br>​
+
+                    Driven by a commitment to precision and innovation, we empower organizations with actionable data
+                    and insights. Whether improving mining processes, ensuring infrastructure safety, or offering an
+                    aerial perspective of projects, Land Earth Technologies is your go-to partner for reliable drone
+                    survey solutions..
+
+                    ​
+
+
+
+                  </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="ex2-tabs-5" role="tabpanel" aria-labelledby="ex2-tab-5">
+            <div>
+              <h1 class="d-flex justify-content-center allheading">GROUND SURVEYS</h1>
+              <h6 class="d-flex justify-content-center smallScreen photogrametry">Transforming Imagery into Actionable
+                Insights for
+                Smarter Decisions</h6>
+              <div class="d-flex justify-content-center images-container ">
+                <img class="img-fluid"
+                  src="https://static.wixstatic.com/media/89d060_c81eec24944a4c7b92c989fed056dcb0~mv2.png/v1/crop/x_0,y_13,w_1047,h_329/fill/w_805,h_251,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/89d060_c81eec24944a4c7b92c989fed056dcb0~mv2.png"
+                  class="mb-3" alt="">
+              </div>
+              <div class="text-center d-flex justify-content-center align-item-center">
+                <div class="pb-4 pt-sm-5"
+                  style="width: 90%; height:auto; border:2px solid #dfc04d;  border-radius:5px;">
+                  <p class="mt-5 mx-1 ">At Land Earth Technologies, we provide comprehensive ground survey services,
+                    specializing in Total Station and GPS surveys to meet the precise needs of various industries. Our
+                    skilled teams use advanced equipment and cutting-edge technology to capture highly accurate
+                    geospatial data.
+
+                    <br>​ <br>​ <br>​
+
+                    In Total Station surveys, we deliver precise measurements for land mapping, construction, and
+                    property boundary determination. Our GPS survey services offer real-time positioning and efficient
+                    data collection, enabling accurate mapping, navigation, and asset management.
+
+                    ​
+
+                    ​<br> <br>​ <br>​
+
+                    With a strong focus on precision, reliability, and efficiency, we are the trusted partner for
+                    clients seeking dependable land surveys and geospatial information. From land development to
+                    infrastructure projects and land use planning, Land Earth Technologies offers the insights needed
+                    for confident decision-making and successful project outcomes.
+
+                    <br>​ <br>​ <br>​
+
+                  </p>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="ex2-tabs-6" role="tabpanel" aria-labelledby="ex2-tab-6">
+            <div>
+              <h1 class="d-flex justify-content-center allheading">LIGHT DETECTION & RANGING (LiDAR)</h1>
+              <p class="d-flex justify-content-center photogrametry">Harness the Precision of LiDAR for a Greener,
+                Smarter Future 4o
+              </p>
+              <div class="d-flex justify-content-center ">
+                <img class="img-fluid mb-3"
+                  src="https://static.wixstatic.com/media/89d060_5c908e41aa7342c9bf2243b9533bc616~mv2.png/v1/fill/w_981,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/89d060_5c908e41aa7342c9bf2243b9533bc616~mv2.png"
+                  alt="">
+              </div>
+              <div class="text-center d-flex justify-content-center align-item-center">
+                <div class="pb-4" style="width: 90%; height:auto; border: 2px solid #dfc04d;  border-radius:5px;">
+                  <p class="mt-5 mx-1 ">At Land Earth Technologies, we specialize in delivering advanced LiDAR
+                    solutions, using cutting-edge technology to provide high-precision 3D scanning for diverse
+                    applications. Our LiDAR expertise is instrumental in forestry and environmental monitoring, offering
+                    detailed insights into landscapes and ecosystems.
+
+                    <br>​ <br>​ <br>​
+
+                    We deliver accurate topographic data, assess forest health, and track environmental changes with
+                    unmatched precision. Using state-of-the-art LiDAR sensors and innovative data processing techniques,
+                    we provide actionable insights that empower better decision-making.
+
+                    Whether enhancing forest management, monitoring natural habitats, or evaluating the impacts of
+                    climate change, our LiDAR solutions help organizations make informed choices to support
+                    sustainability and conservation efforts.
+                    ​<br> <br>​ <br>​
+
+                    At Land Earth Technologies, we combine technical excellence with a commitment to environmental
+                    responsibility, offering LiDAR services that contribute to a greener, more sustainable future.
+                    Discover the transformative potential of LiDAR with us.
+
+                    ​
+
+
+
+                  </p>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- Tabs content -->
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+  <footer class="bg-primary text-white text-center text-lg-start footer-bg-img">
+    <!-- Grid container -->
+    <div class="container p-4 ">
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0 ">
+          <h5 class="" style="color: #E4C324;font-size: 26px;line-height: normal; font-weight:400">
+            Services</h5>
+
+
+          <ul class="list-unstyled" style="margin: 0px 2px 0px 0px;
+          color: #FFFFFF;
+          font-family: helvetica-w01-roman, sans-serif;
+          font-size: 14px; ">
+            <li>
+              <a href="#ex2-tabs-1" style="color: inherit; text-decoration: none;">Remote Sensing</a>
+            </li>
+            <li>
+              <a href="#ex2-tabs-1" style="color: inherit; text-decoration: none;">Photogrammetry</a>
+            </li>
+            <li><a href="#ex2-tabs-1" style="color: inherit; text-decoration: none;">GIS (Geographic Informtion
+                System)</a></li>
+            <li><a href="#ex2-tabs-1" style="color: inherit; text-decoration: none;">LiDAR(light information
+                System)</a></li>
+            <li><a href="#ex2-tabs-1" style="color: inherit; text-decoration: none;">Drone Survey</a></li>
+            <li><a href="#ex2-tabs-1" style="color: inherit; text-decoration: none;">Ground Survey</a></li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0 ps-5 ">
+          <h5 class="" style="color: #E4C324;font-size: 26px;line-height: normal; font-weight:400">Address</h5>
+
+          <p class="">H.No# 12-1-245, Road No.3 <br>
+
+            Krushi Nagar, Bandlaguda, <br>
+
+            G.S.I [S.R], Nagole,<br>
+
+            Hyderabad-500068, <br>
+
+            Telangana.</p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0 ps-5">
+          <h5 class="" style="color: #E4C324;font-size: 26px;line-height: normal; font-weight:400">Contact</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              Phone: +91-9849912881
+            </li>
+            <li>
+              Email: csr.letech@gmail.com
+            </li>
+            <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1 bg-primary" href="#!"
+              role="button"><i class="fab fa-facebook-f bg-primary" style="color: #FFFFFF;"></i></a>
+            <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
+              data-mdb-ripple-color="dark"><i class="fab fa-twitter bg-primary" style="color: #FFFFFF;"></i></a>
+            <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
+              data-mdb-ripple-color="dark"><i class="fab fa-instagram bg-primary" style="color: #FFFFFF;"></i></a>
+            <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
+              data-mdb-ripple-color="dark"><i class="fab fa-linkedin bg-primary" style="color: #FFFFFF;"></i></a>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-1 " style="background-color: white; color:#000000">
+      © 2023 by LETECH. All rights reserved.
+
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.umd.min.js"></script>
+</body>
+
+</html>

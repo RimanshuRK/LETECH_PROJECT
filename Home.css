@@ -1,0 +1,252 @@
+
+
+
+
+
+.imaga_about {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.home-img-header{
+    margin-top: 4rem;
+}
+
+.letech-Navbar{
+    background-color: #47afdc;
+}
+
+.Navbar-logo{
+    /* margin-left: 23rem; */
+}
+.Navbar-logo img{
+    height: 40%;
+    width: 9rem;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* <!-- Headern Img Code CSS --> */
+
+.header-Img-main-div{
+    background-color: #132249;
+    height: 90vh;
+}
+
+.header-content-div{
+    gap: 14rem;
+}
+.header-img-content{
+    left: 20rem;
+    width: 34rem;
+    text-align: left;
+}
+
+.header-img-heading{
+    text-decoration: underline;
+    color: #FBA574;
+}
+.header-img-para{
+    font-size: 18px;
+}
+.Header-logo img{
+    height: 3rem;
+    width: 9rem;
+}
+
+.content-p-heading{
+    display: flex;
+    justify-content: center;
+   color: #bf7951 ;
+   /* font-size: 28px; */
+   /* font-weight: 500; */
+
+   font-size: 33.3908px;
+    font-family: impact, impact-w01-2010, impact-w02-2010, impact-w10-2010, sans-serif;
+}
+.content-p-para{
+    display: flex;
+    justify-content: center;
+    padding: 0 28rem;
+    text-align: center;
+    letter-spacing: 0em;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+.land-earth-Img{
+    margin: 10rem 0 0;
+    width: 716px;
+    height: 578px;
+    object-fit: cover;
+}
+
+.card-main-div{
+    margin: 0 15rem;
+}
+.card-header.Established-header{
+    font-size: 24px;
+    padding: 0;
+    color: #fff;
+    background-color: #4a8337;
+}
+.card-header.offerings-header{
+    font-size: 24px;
+    padding: 0;
+    color: #fff;
+    background-color: #6e5aa6;
+
+}
+.card-header.believe-header{
+    font-size: 24px;
+    padding: 0;
+    color: #fff;
+    background-color: #da3386;
+
+}
+.card-header.grow-header{
+    font-size: 24px;
+    padding: 0;
+    color: #fff;
+    background-color: #3d9be9;
+
+}
+.card.set-card-height{
+    height: 20rem;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.card-body.Established-body, .card-body.offerings-body, .card-body.believe-body, .card-body.grow-body {
+    font-size: 14px;
+    line-height: 1.5em;
+    padding: 10px;
+    background-color: #f7f5e1 ;
+}
+
+.card-body.Established-body p,
+ .card-body.offerings-body p, 
+ .card-body.believe-body p, 
+ .card-body.grow-body p {
+    letter-spacing: 0.05em;
+    line-height: 2em;
+    font-size: 12px;
+    font-family: prompt, sans-serif;
+}
+
+.Middle-part{
+    padding: 2rem 0;
+}
+
+.aboutpart-home{
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at 50% 50%, #ED5829 0%, #F9C5B4 100%);
+    
+}
+
+
+.card.card-about{
+    max-width: 84rem;
+    height: 32rem;
+    padding: 0 5rem;
+    background-image: url("ImagesFiles/CARD_AboutUS.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid;
+    border-radius: 2px;
+}
+
+.About-para{
+    letter-spacing: 0.05em;
+    line-height: 1.9em;
+    text-align: center;
+    font-size: 16px;
+}
+.aboutus-heading-card{
+    letter-spacing: 0.02em;
+    font-size: 60px;
+    font-weight: 400;
+}
+.about-border-card{
+    padding: 12px;
+    background: #eeeeee;
+    border-radius: 7px;
+    box-shadow: var(--shd, 0 1px 4px rgba(0, 0, 0, .6));
+}
+
+.card-about p{
+    /* padding: 0 6rem; */
+    padding-left: 5rem;
+    padding-right: 6rem;
+}
+
+.first-col.col-md-8{
+    width: 64.666667%;
+}
+
+.home-about-image img{
+    margin-top: 2rem;
+    max-width: 29rem;
+}
+
+
+
+/* Services Home */
+
+
+.Services-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.Services-home p{
+    text-align: center;
+    padding: 0 29rem;
+    font-size: 18px;
+    line-height: 1.8em;
+    text-align: center;
+    margin-bottom: 0;
+}
+.Services-home h1{
+    font-size: 56px;
+    font-weight: 400;
+
+}
+
+/* Footer */
+.footer-bg-img{
+    background-image: url("ImagesFiles/FooterbgImages.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: helvetica-w01-roman, sans-serif;
+    letter-spacing: 0.1em;
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .content-p-para  {
+      padding: 6px;
+     
+  
+    }
+  
+  
+  }
+

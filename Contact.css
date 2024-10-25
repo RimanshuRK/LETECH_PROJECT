@@ -1,0 +1,41 @@
+.letech-Navbar{
+    background-color: #47afdc;
+}
+
+.Navbar-logo{
+    /* margin-left: 23rem; */
+}
+.Navbar-logo img{
+    height: 40%;
+    width: 9rem;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* _________________ */
+
+.header-cont-img{
+    margin-top: 4.5rem;
+    padding: 10px;
+    background-color: #132249;
+}
+
+
+/* Footer */
+.footer-bg-img{
+    background-image: url("ImagesFiles/FooterbgImages.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: helvetica-w01-roman, sans-serif;
+    letter-spacing: 0.1em;
+
+}

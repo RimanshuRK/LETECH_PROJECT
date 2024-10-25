@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="ImagesFiles/LEtech_Logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="Home.css" rel="stylesheet">
+  <title>Land Earth Technology</title>
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.min.css" rel="stylesheet" />
+
+</head>
+<style>
+  .image-container {
+    position: relative;
+    text-align: center;
+    margin-top: 4.5rem;
+  }
+
+  .Middle-part {
+    padding: 2rem 0;
+  }
+
+  .content-p-heading {
+    display: flex;
+    justify-content: center;
+    color: #bf7951;
+    /* font-size: 28px; */
+    /* font-weight: 500; */
+    font-size: 33.3908px;
+    font-family: impact, impact-w01-2010, impact-w02-2010, impact-w10-2010, sans-serif;
+  }
+
+  .content-p-para {
+    display: flex;
+    justify-content: center;
+    padding: 0 24%;
+    text-align: center;
+    letter-spacing: 0em;
+    font-size: 16px;
+    margin-bottom: 1rem;
+  }
+
+  .card-main-div {
+    margin: 0 15%;
+  }
+
+  .card-header.Established-header {
+    font-size: 24px;
+    padding: 0;
+    color: #fff;
+    background-color: #4a8337;
+  }
+
+  .card-header.offerings-header {
+    font-size: 24px;
+    padding: 0;
+    color: #fff;
+    background-color: #6e5aa6;
+
+  }
+
+  .card-header.believe-header {
+    font-size: 24px;
+    padding: 0;
+    color: #fff;
+    background-color: #da3386;
+  }
+
+  .card-header.grow-header {
+    font-size: 24px;
+    padding: 0;
+    color: #fff;
+    background-color: #3d9be9;
+  }
+
+  .card.set-card-height {
+    height: 100%;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .card-body.Established-body,
+  .card-body.offerings-body,
+  .card-body.believe-body,
+  .card-body.grow-body {
+    font-size: 14px;
+    line-height: 1.5em;
+    padding: 10px;
+    background-color: #f7f5e1;
+  }
+
+  .card-body.Established-body p,
+  .card-body.offerings-body p,
+  .card-body.believe-body p,
+  .card-body.grow-body p {
+    letter-spacing: 0.05em;
+    line-height: 2em;
+    font-size: 12px;
+    font-family: prompt, sans-serif;
+  }
+
+  .Middle-part {
+    padding: 2rem 0;
+  }
+
+  #homeaboutsection {
+    background: radial-gradient(circle at 50% 50%, #ED5829 0%, #F9C5B4 100%);
+  }
+
+  .aboutpart-home {
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-border-card {
+    padding: 12px;
+    background: #eeeeee;
+    border-radius: 7px;
+    box-shadow: var(--shd, 0 1px 4px rgba(0, 0, 0, .6));
+  }
+
+  .Services-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .Services-home p {
+    text-align: center;
+    padding: 0 29%;
+    font-size: 18px;
+    line-height: 1.8em;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .Services-home h1 {
+    font-size: 56px;
+    font-weight: 400;
+
+  }
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    left: 20px;
+    margin-left: 22%;
+  }
+
+
+  @media screen and (max-width: 480px) {
+    .Middle-part {
+      padding: 0.2rem 0;
+    }
+
+    .content-p-para {
+      padding: 0 3%;
+      font-size: 10px;
+      margin-bottom: 0.5rem;
+    }
+
+    .content-p-para p {
+      margin-bottom: 5px;
+    }
+
+    .content-p-heading {
+      font-size: 15px;
+      margin-bottom: 0;
+    }
+
+    .content-p-heading p {
+      margin-bottom: 0.2rem;
+    }
+
+    .card-main-div {
+      margin: 0 8%;
+    }
+
+    .card-main-col {
+      margin-bottom: 10px;
+    }
+
+    .card-header.Established-header {
+      font-size: 15px;
+    }
+
+    .card-header.offerings-header {
+      font-size: 15px;
+    }
+
+    .card-header.believe-header {
+      font-size: 15px;
+    }
+
+    .card-header.grow-header {
+      font-size: 15px;
+    }
+
+    .card-body.Established-body p,
+    .card-body.offerings-body p,
+    .card-body.believe-body p,
+    .card-body.grow-body p {
+      letter-spacing: 0.04em;
+      line-height: 1.5em;
+      font-size: 10px;
+    }
+
+    .aboutpart-home {
+      padding: 1rem;
+    }
+
+    .about-border-card {
+      padding: 5px;
+    }
+
+    .Services-home h1 {
+      font-size: 20px;
+    }
+
+    .Services-home p {
+      padding: 0 3%;
+      font-size: 10px;
+    }
+
+    .Services-home {
+      margin-top: 0.2rem;
+    }
+
+
+
+  }
+
+  @media (min-width: 481px) and (max-width: 1024px) {
+    .Middle-part {
+      padding: 0.2rem 0;
+    }
+
+    .content-p-para {
+      padding: 0 3%;
+      font-size: 15px;
+      margin-bottom: 0.5rem;
+    }
+
+    .content-p-para p {
+      margin-bottom: 5px;
+    }
+
+    .content-p-heading {
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+
+    .content-p-heading p {
+      margin-bottom: 0.2rem;
+    }
+
+    .card-main-div {
+      margin: 0 5%;
+    }
+
+    .card-main-col {
+      margin-bottom: 10px;
+    }
+
+    .card-header.Established-header,
+    .card-header.offerings-header,
+    .card-header.believe-header,
+    .card-header.grow-header {
+      font-size: 18px;
+    }
+
+
+    .card-body.Established-body p,
+    .card-body.offerings-body p,
+    .card-body.believe-body p,
+    .card-body.grow-body p {
+      letter-spacing: 0.04em;
+      line-height: 1.5em;
+      font-size: 14px;
+    }
+
+    .aboutpart-home {
+      padding: 2rem;
+    }
+
+    .about-border-card {
+      padding: 8px;
+    }
+
+    .Services-home h1 {
+      font-size: 26px;
+    }
+
+    .Services-home p {
+      padding: 0 2%;
+      font-size: 14px;
+      line-height: 1.4em;
+    }
+
+    .Services-home {
+      margin-top: 0.2rem;
+    }
+
+    .col-sm-3 {
+      flex: 0 0 auto;
+      width: 50%;
+      padding: 0 6px;
+    }
+
+  }
+
+
+  @media (min-width: 1025px) and (max-width: 1440px) {
+    .Middle-part {
+      padding: 0.2rem 0;
+    }
+
+    .content-p-para {
+      padding: 0 8%;
+      font-size: 19px;
+      margin-bottom: 0.5rem;
+    }
+
+    .content-p-para p {
+      margin-bottom: 5px;
+    }
+
+    .content-p-heading {
+      font-size: 33px;
+      margin-bottom: 0;
+    }
+
+    .content-p-heading p {
+      margin-bottom: 0.2rem;
+    }
+
+    .card-main-div {
+      margin: 0 4%;
+    }
+
+    .card-main-col {
+      margin-bottom: 10px;
+    }
+
+    .card-header.Established-header,
+    .card-header.offerings-header,
+    .card-header.believe-header,
+    .card-header.grow-header {
+      font-size: 20px;
+    }
+
+
+    .card-body.Established-body p,
+    .card-body.offerings-body p,
+    .card-body.believe-body p,
+    .card-body.grow-body p {
+      letter-spacing: 0.04em;
+      line-height: 1.5em;
+      font-size: 14px;
+    }
+
+    .aboutpart-home {
+      padding: 3rem;
+    }
+
+    .about-border-card {
+      padding: 12px;
+    }
+
+    .Services-home h1 {
+      font-size: 3rem;
+    }
+
+    .Services-home p {
+      padding: 0 7%;
+      font-size: 19px;
+      line-height: 1.4em;
+    }
+
+    .Services-home {
+      margin-top: 0.2rem;
+    }
+
+
+  }
+
+  @media (min-width: 1358px) and (max-width: 1750px) {
+    .ItemsofNavbar {
+      margin-left: 820px;
+    }
+
+  }
+
+  @media (max-width: 1359px) and (min-width: 768px) {
+    .ItemsofNavbar {
+      margin-left: 500px;
+    }
+
+  }
+
+  /* Media Queries for Responsiveness */
+  @media (min-width: 1880px) {
+    .ItemsofNavbar {
+      margin-left: 1300px;
+    }
+  }
+
+  /* @media (max-width: 992px) {
+
+    .content-p-para {
+      padding: 0 2rem;
+    }
+
+  } */
+
+  @media (max-width: 375px) {
+
+    .Navbar-logo img {
+      height: 40%;
+      width: 4rem;
+    }
+
+    .image-container {
+      margin-top: 2rem;
+    }
+
+    .navbar-brand {
+      margin-left: 1%;
+    }
+
+  }
+
+  @media (min-width: 376px) and (max-width: 1024px) {
+    .Navbar-logo img {
+      height: 40%;
+      width: 5rem;
+    }
+
+    .image-container {
+      margin-top: 2rem;
+    }
+
+    .navbar-brand {
+      margin-left: 8%;
+    }
+
+  }
+</style>
+
+<body>
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light letech-Navbar p-0">
+    <div class="container-fluid">
+      <a class="navbar-brand Navbar-logo pb-0" href="#">
+        <img src="ImagesFiles/LEtech_Logo.png" alt="Logo" loading="lazy" />
+      </a>
+
+      <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarRightAlignExample"
+        aria-controls="navbarRightAlignExample" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarRightAlignExample">
+
+        <ul class="navbar-nav  mb-2 mb-lg-0">
+          <li class="nav-item me-4">
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link  text-white" href="/about.html">AboutUs</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link  text-white" href="/services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="Image">
+      <div class="image-container ">
+        <img class="" src="ImagesFiles/Home-header-Images.png" style="width: -webkit-fill-available;" alt="">
+      </div>
+    </section>
+
+    <!-- section 2 -->
+    <section id="Middle-section">
+      <div class="Middle-part">
+        <div class=" ">
+          <div class="content-p-heading">
+            <p>LE TECH Innovation: Revolutionizing Geospatial Solutions</p>
+          </div>
+          <div class="content-p-para">
+            <p>
+              LETECH Innovation is redefining geospatial solutions with cutting-edge technology and
+              expertise. Our
+              advanced
+              capabilities in Remote Sensing, GIS, Photogrammetry, and AI-driven analytics enable precise,
+              data-driven
+              insights for industries worldwide. We empower clients to make smarter decisions, optimize
+              operations, and
+              unlock
+              new possibilities. LETECH is committed to driving innovation for a sustainable and connected
+              future.
+            </p>
+          </div>
+
+          <div class="card-main-div">
+            <div class="row">
+              <div class="col-sm-3 card-main-col">
+                <div class="card card text-center set-card-height">
+                  <div class="card-header Established-header ">Established in 2021</div>
+                  <div class="card-body Established-body">
+                    <p class="card-text">Land Earth Technologies (LETECH) has quickly positioned
+                      itself as a pioneer in
+                      the
+                      geospatial technology sector. From its inception, LETECH has been committed
+                      to delivering
+                      innovative,
+                      cutting-edge solutions that address complex challenges across various
+                      industries. Headquartered in
+                      Hyderabad, India, a renowned technology hub, the company leverages its
+                      expertise to serve clients
+                      globally, blending technology with actionable insights to drive
+                      decision-making.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3 card-main-col">
+                <div class="card card text-center set-card-height">
+                  <div class="card-header offerings-header">Our core offerings</div>
+                  <div class="card-body offerings-body">
+                    <p class="card-text">include advanced Remote Sensing (RS), Geographic
+                      Information Systems (GIS),
+                      Photogrammetry, LiDAR, Drone Surveys, and Ground Surveys. By utilizing these
+                      technologies, we
+                      provide
+                      precise data analysis and mapping solutions that support a wide array of
+                      industries. Whether it's
+                      urban
+                      planning, environmental conservation, disaster management, or infrastructure
+                      inspection, LETECH is
+                      at
+                      the forefront of geospatial intelligence.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-3 card-main-col">
+                <div class="card card text-center set-card-height">
+                  <div class="card-header border-0 believe-header">At LETECH we believe</div>
+                  <div class="card-body believe-body">
+                    <p class="card-text">in being more than just a service provider. We are a
+                      strategic partner, working
+                      alongside businesses, government bodies, and organizations to help them
+                      harness the power of
+                      geospatial
+                      data. Through collaboration and innovation, we develop customized solutions
+                      that allow our clients
+                      to
+                      unlock new opportunities, optimize operations, and achieve their goals more
+                      effectively.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-3 card-main-col">
+                <div class="card card text-center set-card-height">
+                  <div class="card-header grow-header">As we continue to grow</div>
+                  <div class="card-body grow-body">
+                    <p class="card-text">our vision remains clear: to revolutionize the world with
+                      geospatial technology.
+                      LETECH is not only committed to excellence in service delivery but also to
+                      shaping the future of
+                      industries through sustainable, data-driven practices. Our focus on
+                      research, innovation, and
+                      state-of-the-art tools positions us as a leader in geospatial technology,
+                      driving positive change
+                      for
+                      a smarter, more efficient world.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section id="homeaboutsection">
+
+
+      <div class="aboutpart-home">
+        <div class="about-border-card">
+          <img src="ImagesFiles/Home_About_Img.png" alt="" class="img-fluid rounded-start" />
+        </div>
+      </div>
+
+    </section>
+
+
+    <section id="service-section">
+      <div class="Services-home">
+        <h1>Services</h1>
+        <p>LETECH’s excellence has made us a global leader in geospatial technology. Our work supports governments in
+          conservation, helps industries optimize resources, and aids organizations in disaster response, shaping a more
+          efficient world.</p>
+        <div>
+          <img src="ImagesFiles/HomeServices.png" alt="" usemap="#workmap" class="img-fluid rounded-start" />
+
+
+          <map name="workmap">
+            <!-- Left side areas -->
+            <area shape="rect" coords="20,50,200,70" alt="Remote Sensing" href="/Services.html">
+            <area shape="rect" coords="20,120,200,140" alt="Geospatial Analysis" href="/Services.html">
+            <area shape="rect" coords="20,220,200,210" alt="Image Processing" href="/Services.html">
+            <area shape="rect" coords="20,320,200,280" alt="Photogrammetry" href="/Services.html">
+            <area shape="rect" coords="20,400,200,350" alt="Lidar" href="/Services.html">
+            <area shape="rect" coords="20,490,200,420" alt="GIS" href="/Services.html">
+
+            <!-- Right side areas -->
+            <area shape="rect" coords="1250,50,580,70" alt="GIS Analysis" href="/Services.html">
+            <area shape="rect" coords="1250,120,580,140" alt="GIS Tools & Integration" href="/Services.html">
+            <area shape="rect" coords="1250,220,580,210" alt="Drone Surveys" href="/Services.html">
+            <area shape="rect" coords="1250,320,580,280" alt="Ground Surveys" href="/Services.html">
+            <area shape="rect" coords="1250,400,580,350" alt="AI" href="/Services.html">
+            <area shape="rect" coords="1250,490,580,420" alt="Geospatial Decision Making" href="/Services.html">
+          </map>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- Footer -->
+
+  <footer class="bg-primary text-white text-center text-lg-start footer-bg-img">
+    <!-- Grid container -->
+    <div class="container p-4 ">
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0 ">
+          <h5 class="" style="color: #E4C324;font-size: 26px;line-height: normal; font-weight:400">
+            Services</h5>
+
+
+          <ul class="list-unstyled" style="margin: 0px 2px 0px 0px;
+        color: #FFFFFF;
+        font-family: helvetica-w01-roman, sans-serif;
+        font-size: 14px; ">
+            <li>
+              <a href="/Services.html" style="color: inherit; text-decoration: none;">Remote Sensing</a>
+            </li>
+            <li>
+              <a href="/Services.html" style="color: inherit; text-decoration: none;">Photogrammetry</a>
+            </li>
+            <li><a href="/Services.html" style="color: inherit; text-decoration: none;">GIS (Geographic Informtion
+                System)</a></li>
+            <li><a href="/Services.html" style="color: inherit; text-decoration: none;">LiDAR(light information
+                System)</a></li>
+            <li><a href="/Services.html" style="color: inherit; text-decoration: none;">Drone Survey</a></li>
+            <li><a href="/Services.html" style="color: inherit; text-decoration: none;">Ground Survey</a></li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0 ps-5 ">
+          <h5 class="" style="color: #E4C324;font-size: 26px;line-height: normal; font-weight:400">Address</h5>
+
+          <p class="">H.No# 12-1-245, Road No.3 <br>
+
+            Krushi Nagar, Bandlaguda, <br>
+
+            G.S.I [S.R], Nagole,<br>
+
+            Hyderabad-500068, <br>
+
+            Telangana.</p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0 ps-5">
+          <h5 class="" style="color: #E4C324;font-size: 26px;line-height: normal; font-weight:400">Contact</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              Phone: +91-9849912881
+            </li>
+            <li>
+              Email: csr.letech@gmail.com
+            </li>
+            <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1 bg-primary" href="#!"
+              role="button"><i class="fab fa-facebook-f bg-primary" style="color: #FFFFFF;"></i></a>
+            <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
+              data-mdb-ripple-color="dark"><i class="fab fa-twitter bg-primary" style="color: #FFFFFF;"></i></a>
+            <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
+              data-mdb-ripple-color="dark"><i class="fab fa-instagram bg-primary" style="color: #FFFFFF;"></i></a>
+            <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
+              data-mdb-ripple-color="dark"><i class="fab fa-linkedin bg-primary" style="color: #FFFFFF;"></i></a>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-1 " style="background-color: white; color:#000000">
+      © 2023 by LETECH. All rights reserved.
+
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <!-- MDB -->
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.umd.min.js"></script>
+</body>
+
+</html>
